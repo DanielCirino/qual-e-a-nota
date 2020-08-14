@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Qual é a Nota</string>
+
+    <string name="informacoes_sobre_app">
+    "Desenvolvido por: DevRocks.tech"
+    "\nSite: http://www.devrocks.tech"
+    "\nContato: contato@devrocks.tech"
+    "\nVersão: 1.0.0"
+  </string>
+    <string name="id_bloco_anuncio_admob">ca-app-pub-8532343123320223/1423553924</string>
+    <string name="texto_compartilhamento_app">
+        Este APP ajuda no cálculo das notas da faculdade Unipaulistana. Baixe o app e aproveite. \n
+        https://play.google.com/store/apps/details?id=br.com.firstup.qualeanota
+    </string>
+</resources>

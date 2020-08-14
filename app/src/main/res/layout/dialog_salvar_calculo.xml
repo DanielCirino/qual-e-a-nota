@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_dialogo"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concert_one_regular"
+        android:text="Salvar cálculo"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorLicoriceDark"
+        android:textSize="32sp"
+        android:gravity="start"
+        android:layout_gravity="start" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_disquete"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/work_sans_regular"
+        android:text="Informe um nome para o cálculo:"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorLicorice"
+        android:textSize="20sp"
+        android:gravity="start" />
+
+    <EditText
+        android:id="@+id/et_nome_calculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_textview_cloud_light"
+        android:fontFamily="@font/concert_one_regular"
+        android:textSize="24sp"
+        android:maxLength="30"
+        android:hint="Minha maravilhosa nota"
+        android:inputType="textAutoComplete"
+        android:padding="16dp"
+        android:textColor="@color/colorLicoriceDark"
+        android:textColorHint="@color/colorLicoriceLight" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+      <Button
+          android:id="@+id/btn_salvar_resultado"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="8dp"
+          android:layout_weight="1"
+          android:background="@drawable/bg_botao_verde"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="Salvar"
+          android:textColor="@color/colorWhite"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/btn_cancelar_salvamento"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="8dp"
+          android:layout_weight="1"
+          android:background="@drawable/bg_botao_vermelho"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="Cancelar"
+          android:textColor="@color/colorWhite"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      />
+
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

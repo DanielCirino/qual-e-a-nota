@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/colorWhite"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_valor_nota_media"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_botao_cor_primaria"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp"
+        android:text="4,96"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_nome_calculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/concert_one_regular"
+        android:text="Minha maravilhosa nota..."
+        android:textColor="@color/colorLicoriceDark"
+        android:textSize="20sp"
+        android:lines="1"
+        android:ellipsize="end"
+        app:layout_constraintStart_toEndOf="@id/tv_valor_nota_media"
+        app:layout_constraintRight_toLeftOf="@id/btn_excluir_calculo"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_data_calculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="@font/work_sans_regular"
+        android:text="20/08/2020"
+        android:textColor="@color/colorLicorice"
+        app:layout_constraintTop_toBottomOf="@id/tv_nome_calculo"
+        app:layout_constraintStart_toStartOf="@id/tv_nome_calculo"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_excluir_calculo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@color/colorWhite"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_lixeira"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

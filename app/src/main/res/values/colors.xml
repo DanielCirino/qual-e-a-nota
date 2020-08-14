@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2980b9</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="colorLicoriceDark">#4C4C4C</color>
+    <color name="colorLicorice">#777777</color>
+    <color name="colorLicoriceLight">#AFAFAF</color>
+
+    <color name="colorCloudDark">#CFCFCF</color>
+    <color name="colorCloud">#DDDDDD</color>
+    <color name="colorCloudLight">#F0F0F0</color>
+    
+    <color name="colorAlizarin">#e74c3c</color>
+    <color name="colorPomegranate">#c0392b</color>
+    
+    <color name="nephritis">#27ae60</color>
+    <color name="emeerald">#2ecc71</color>
+    
+    <color name="amethist">#9b59b6</color>
+    <color name="wisteria">#8e44ad</color>
+
+</resources>

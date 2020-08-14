@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_dialogo"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concert_one_regular"
+        android:text="\\0/ Parabéns!! Você foi aprovado com nota:"
+        android:textAlignment="textStart"
+        android:textColor="@color/emeerald"
+        android:textSize="32sp"
+        android:gravity="start"
+        android:layout_gravity="start" />
+
+    <TextView
+        android:id="@+id/tv_valor_nota_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/concert_one_regular"
+        android:text="8.0"
+        android:textAlignment="center"
+        android:textColor="@color/emeerald"
+        android:textSize="96sp"
+        android:layout_gravity="start" />
+
+    <View
+        android:id="@+id/line_divider"
+        android:layout_width="64dp"
+        android:layout_height="4dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorCloud"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/info_exame_especial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <TextView
+          android:id="@+id/tv_mensagem_exame_especial"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:fontFamily="@font/work_sans_regular"
+          android:text="Você  precisa fazer o exame especial e para ser aprovado tem quetirar nota:"
+          android:textAlignment="textStart"
+          android:textColor="@color/colorPrimaryDark"
+          android:textSize="20sp"
+          android:gravity="start" />
+
+      <TextView
+          android:id="@+id/tv_valor_nota_exame_especial"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="8.0"
+          android:textAlignment="center"
+          android:textColor="@color/colorPrimary"
+          android:textSize="84sp"
+          android:layout_gravity="start" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+
+      <Button
+          android:id="@+id/btn_salvar_resultado"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="8dp"
+          android:layout_weight="1"
+          android:background="@drawable/bg_botao_verde"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="Salvar"
+          android:textColor="@color/colorWhite"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/btn_compartilhar_resultado"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="8dp"
+          android:layout_weight="1"
+          android:background="@drawable/bg_botao_cor_primaria"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="Compartilhar"
+          android:textColor="@color/colorWhite"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/btn_fechar_resultado"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginTop="8dp"
+          android:layout_weight="1"
+          android:background="@drawable/bg_botao_vermelho"
+          android:fontFamily="@font/concert_one_regular"
+          android:text="Fechar"
+          android:textColor="@color/colorWhite"
+          android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+      />
+
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
